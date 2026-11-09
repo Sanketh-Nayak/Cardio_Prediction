@@ -1,0 +1,19 @@
+{
+    "feature_order": [
+        "gender",
+        "height",
+        "weight",
+        "ap_hi",
+        "ap_lo",
+        "cholesterol",
+        "gluc",
+        "smoke",
+        "alco",
+        "active",
+        "age_years",
+        "bmi"
+    ],
+    "target": "cardio",
+    "model": "Gradient Boosting",
+    "sklearn_version": "1.7.2"
+}
