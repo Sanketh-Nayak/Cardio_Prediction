@@ -105,7 +105,10 @@ with st.form("cardio_prediction_form"):
 
         gender = st.selectbox(
             "Gender (dataset code)",
-            options=["male", "female"]
+            options=[1, 2],format_func=lambda x: {
+                1: "Male",
+                2: "Female",
+            }[x]
         )
 
     with col2:
